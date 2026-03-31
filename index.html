@@ -16,7 +16,7 @@
   --white:     #FFFFFF;
   --gold:      #B08A1A;   /* dorado oscuro — textos dorados */
   --gold-btn:  #B8920A;
-  --green-btn: #5A8A2A;   /* dorado botón */
+  --green-btn: #5A8A2A;   /* verde botón */
   --gold-pale: #F0E6C0;   /* dorado muy pálido — fondos de íconos/chips */
   --gold-brd:  rgba(176,138,26,0.30); /* borde dorado suave */
   --terra:     #B86040;   /* terracota — énfasis emocional */
@@ -513,11 +513,11 @@ body {
 .for-wrap { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:36px; }
 .for-card { background:var(--white); border:1.5px solid var(--soft); border-radius:14px; padding:22px 18px; }
 .for-head { font-size:14px; font-weight:700; color:var(--dark); margin-bottom:16px; display:flex; align-items:center; gap:8px; }
-.byes { width:22px;height:22px; background:#E4F2DE; border-radius:50%; display:flex;align-items:center;justify-content:center; color:#4A9035; font-size:11px; }
+.byes { width:22px;height:22px; background:var(--gold-pale); border-radius:50%; display:flex;align-items:center;justify-content:center; color:var(--gold); font-size:11px; }
 .bno  { width:22px;height:22px; background:#F9E8E8; border-radius:50%; display:flex;align-items:center;justify-content:center; color:#C04040; font-size:11px; }
 .for-list { list-style:none; display:flex; flex-direction:column; gap:7px; }
 .for-list li { font-size:13px; color:var(--body); line-height:1.55; display:flex; gap:8px; align-items:flex-start; }
-.fy { color:#4A9035; flex-shrink:0; margin-top:1px; }
+.fy { color:var(--gold); flex-shrink:0; margin-top:1px; }
 .fn { color:#C04040; flex-shrink:0; margin-top:1px; }
 
 /* ═══════ TESTIMONIALS ═══════ */
@@ -649,8 +649,8 @@ body {
 
 .psave {
   display:block;
-  background:#E4F2DE;
-  color:#4A9035;
+  background:var(--gold-pale);
+  color:var(--gold);
   font-size:12px; font-weight:700;
   padding:5px 14px;
   border-radius:60px;
@@ -743,7 +743,7 @@ footer { background:#110D05; padding:44px 22px 32px; text-align:center; color:rg
   <div class="wrap">
 
     <!-- Píldora — método -->
-    <div class="hero-pill">✦ Método Kenshō · Orden Consciente</div>
+    <div class="hero-pill" style="background:#fff;border:1.5px solid var(--gold-brd);color:var(--gold);">✦ Método Kenshō · Orden Consciente</div>
 
     <!-- Gancho previo al título -->
     <p style="font-size:13px;font-weight:600;color:var(--terra);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:16px;">Lo que querés ya existe. Lo que te frena, también.</p>
@@ -1224,7 +1224,7 @@ footer { background:#110D05; padding:44px 22px 32px; text-align:center; color:rg
   border-radius:60px;
   margin-bottom:10px;
 }
-.badge-e { background:#E4F2DE; color:#3E7A28; }
+.badge-e { background:var(--gold-pale); color:var(--gold); }
 .badge-t { background:var(--gold-pale); color:var(--gold); }
 .pk-name {
   font-family:'Cormorant Garamond',serif;
@@ -1365,8 +1365,8 @@ footer { background:#110D05; padding:44px 22px 32px; text-align:center; color:rg
           <div class="pk-tagline">Todo lo que necesitás para arrancar y sostener los 21 días de proceso interno.</div>
         </div>
         <div class="pk-price-area">
-          <span class="pk-price-main">$27.990</span>
-          <span class="pk-price-old">$54.000</span>
+          <span class="pk-price-main">$18.999</span>
+          <span class="pk-price-old">$38.000</span>
           <div class="pk-price-note">Pago único · Acceso de por vida</div>
         </div>
         <div class="pk-items">
@@ -1414,8 +1414,8 @@ footer { background:#110D05; padding:44px 22px 32px; text-align:center; color:rg
           <div class="pk-tagline">El sistema completo: interior, hogar e identidad — con acompañamiento desde el día uno.</div>
         </div>
         <div class="pk-price-area">
-          <span class="pk-price-main">$49.990</span>
-          <span class="pk-price-old">$99.990</span>
+          <span class="pk-price-main">$32.000</span>
+          <span class="pk-price-old">$65.000</span>
           <div class="pk-price-note">Pago único · Acceso de por vida</div>
         </div>
         <div class="pk-items">
@@ -1466,7 +1466,7 @@ footer { background:#110D05; padding:44px 22px 32px; text-align:center; color:rg
 
     <!-- Nota de ahorro debajo -->
     <div style="text-align:center;margin-top:6px;margin-bottom:28px;">
-      <span style="display:inline-block;background:#E4F2DE;color:#3E7A28;font-size:12px;font-weight:700;padding:6px 18px;border-radius:60px;">Pack Total: ahorrás $50.000 respecto al valor individual</span>
+      <span style="display:inline-block;background:var(--gold-pale);color:var(--gold);font-size:12px;font-weight:700;padding:6px 18px;border-radius:60px;">Pack Total: ahorrás $33.000 respecto al valor individual</span>
     </div>
     <p style="text-align:center;font-size:13px;color:var(--mid);font-style:italic;">Descarga digital · PDF + video + audio · Empezás en 10 minutos</p>
 
